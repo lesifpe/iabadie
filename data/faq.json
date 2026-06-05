@@ -68,5 +68,12 @@
     "answer": "Faça um requerimento digital encaminhando para o PROTOCOLO GERAL, solicitando o que precisa",
     "tagList": ["destrancamento", "curso", "destrancar"],
     "sourceList": ["https://exemplo.com/destrancamento"]
+  },
+  {
+    "id": 11,
+    "question": "Quais softwares são utilizados no curso?",
+    "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
+    "tagList": ["softwares", "ferramentas", "curso"],
+    "sourceList": ["https://exemplo.com/softwares"]
   }
 ]
