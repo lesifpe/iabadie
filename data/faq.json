@@ -96,5 +96,72 @@
     "answer": "O canal oficial para comunicar com a coordenação do curso é o email institucional: tads@recife.ifpe.edu.br.",
     "tagList": ["canal", "coordenacao", "curso", "email", "contato"],
     "sourceList": ["https://exemplo.com/coordenacao-contato"]
+  },
+  {
+    "id": 15,
+    "question": "O que fezer se meu nome ou algum dado pessoal estiver errado no Q-acadêmico?",
+    "answer": "Envie um requerimento digital para a DGCA solicitando a regularização de dados pessoais. Deverá anexar ao requerimento documentos que comprovem a alteração (RG e Certidão de Nascimento).",
+    "tagList": ["dados-errados", "q-academico"],
+    "sourceList": ["https://exemplo.com/dodosErradosQacademico"]
+  },
+  {
+    "id": 16,
+    "question": "Preciso cancelar ou incluir uma disciplina. O que eu faço?",
+    "answer": "Faça um requerimento digital encaminhando para o departamento de controle acadêmico (DGCA no email “registrosuperior”) e copiando a coordenação (CTADS), solicitando o que precisa. O arquivo PDF editável do requerimento se encontra na seção de links deste FAQ.",
+    "tagList": ["disciplina", "adicionar disciplina", "remover disciplina"],
+    "sourceList": ["https://exemplo.com/adicionarERemoverDisciplinas"]
+  },
+  {
+    "id": 17,
+    "question": "Meu curso tem aulas à noite/manhã, em que horário serão minhas aulas no modelo remoto?",
+    "answer": "As aulas síncronas, onde o professor encontra os alunos online (google meet, zoom, etc.), serão nos horários originais das disciplinas. Isto impedirá automaticamente os choques entre disciplinas. Entretanto, os professores podem e devem passar conteúdos e atividades assíncronas. Estes deverão ser realizados fora dos horários originais, mas dentro de cada semana de aula, possibilitando ao aluno e ao professor uma maior flexibilidade.",
+    "tagList": [
+      "horarios",
+      "aula-remota",
+      "aulas-sincronas",
+      "flexibilidade-horarios"
+    ],
+    "sourceList": ["https://exemplo.com/hoarioDasAulasModeloRemoto"]
+  },
+  {
+    "id": 18,
+    "question": "O que é o curso de TADS? O que vou aprender?",
+    "answer": "Uma visão rápida do curso de TADS é apresentada no vídeo institucional que está no próximo link. No mesmo canal, há vídeos para outros cursos do IFPE https://bit.ly/3kLkTMV",
+    "tagList": ["curso", "tads", "iniciante"],
+    "sourceList": ["https://exemplo.com/oQueAprendemosEmTADS"]
+  },
+  {
+    "id": 19,
+    "question": "Qual o turno do curso?  Vou estudar pela manhã, à tarde ou à noite?",
+    "answer": "O curso funciona pela manhã e à noite, geralmente com três turmas  em cada turno. No primeiro semestre do ano, as turmas ímpares são pela manhã (1, 3, 5)  e as turmas pares (2, 4, 6) ocorrem à noite. No segundo semestre do ano esta ordem se inverte. Não há procedimento formal para troca de turno. O aluno deverá se matricular nos componentes de acordo com a sua possibilidade de cursar as disciplinas e também, preferencialmente, na   ordem em que aparecem nos períodos.",
+    "tagList": ["turno", "curso"],
+    "sourceList": ["https://exemplo.com/turnosDoCurso"]
+  },
+  {
+    "id": 20,
+    "question": "Preciso de um comprovante de matrícula para o VEM. Como fazer?",
+    "answer": "Para solicitar o VEM Estudante, obtenha uma declaração de matrícula pelo Q-Acadêmico ou solicite o documento ao DGCA (Registro Superior) utilizando seu e-mail institucional. No pedido, informe seu nome e número de matrícula. A declaração é enviada digitalmente por e-mail em até 5 dias úteis e pode ser utilizada como comprovante oficial de vínculo com o IFPE.",
+    "tagList": ["vem", "comprovante-matricula", "vem-estudantil"],
+    "sourceList": ["https://exemplo.com/vemEstudantil"]
+  },
+  {
+    "id": 21,
+    "question": "Quais os documentos necessários para abrir um processo?",
+    "answer": "Os documentos mínimos são: Requerimento em PDF preenchido e assinado, descrevendo claramente o pedido. Há um link do modelo em PDF editável no início deste documento; Cópia de identidade e CPF do requerente; Nada consta da biblioteca (pode ser pedido por email); Quaisquer documentos que auxiliem a comprovar a situação e embasar o seu pedido",
+    "tagList": [
+      "requerimento",
+      "curso",
+      "documentos",
+      "documentacao",
+      "processo"
+    ],
+    "sourceList": ["https://exemplo.com/documentacaoParaProcesso"]
+  },
+  {
+    "id": 22,
+    "question": "Fui reprovado em todos os componentes do período. Perco o curso? Há alguma penalidade?",
+    "answer": "Não há penalidade por reprovar todas as disciplinas no primeiro período. Entretanto, isso reduz sua média geral, o que pode impactar futuras oportunidades como bolsas, monitorias, projetos de pesquisa, extensão, intercâmbios e alguns processos seletivos. É importante manter a matrícula ativa a cada semestre para evitar caracterização de evasão e possível desligamento do curso. Para mais informações, consulte a Organização Acadêmica Institucional (OAI).",
+    "tagList": ["reprovado", "penalidades", "componentes", "curso"],
+    "sourceList": ["https://exemplo.com/PenalidadesAoReprovar"]
   }
 ]
