@@ -71,6 +71,34 @@
   },
   {
     "id": 11,
+    "question": "Olá",
+    "answer": "Olá, tudo bem? Em que posso ajudar?",
+    "tagList": ["saudacao", "atendimento", "oi"],
+    "sourceList": ["https://exemplo.com/saudacao"]
+  },
+  {
+    "id": 12,
+    "question": "Preciso de um comprovante de matrícula para o VEM. Como fazer?",
+    "answer": "Você pode emitir a declaração diretamente pelo Q-Acadêmico. O documento possui um código de verificação que comprova sua autenticidade e será aceito por ser um documento oficial do IFPE.",
+    "tagList": ["VEM", "documento", "comprovante", "onibus"],
+    "sourceList": ["https://exemplo.com/vem-solicitacao"]
+  },
+  {
+    "id": 13,
+    "question": "O que significa “Situação: abandono/evasão”? ",
+    "answer": "Significa que o aluno não realizou matrícula nem solicitou trancamento no período correto. Nesse caso, é necessário procurar o DGCA para verificar possibilidades de reativação.",
+    "tagList": ["abandono", "evasao", "matricula"],
+    "sourceList": ["https://exemplo.com/abandono-evasao"]
+  },
+  {
+    "id": 14,
+    "question": "Qual o canal oficial para comunicar com a coordenação do curso?",
+    "answer": "O canal oficial para comunicar com a coordenação do curso é o email institucional: tads@recife.ifpe.edu.br.",
+    "tagList": ["canal", "coordenacao", "curso", "email", "contato"],
+    "sourceList": ["https://exemplo.com/coordenacao-contato"]
+  },
+  {
+    "id": 15,
     "question": "Quais softwares são utilizados no curso?",
     "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
     "tagList": ["softwares", "ferramentas", "curso"],
