@@ -163,5 +163,12 @@
     "answer": "Não há penalidade por reprovar todas as disciplinas no primeiro período. Entretanto, isso reduz sua média geral, o que pode impactar futuras oportunidades como bolsas, monitorias, projetos de pesquisa, extensão, intercâmbios e alguns processos seletivos. É importante manter a matrícula ativa a cada semestre para evitar caracterização de evasão e possível desligamento do curso. Para mais informações, consulte a Organização Acadêmica Institucional (OAI).",
     "tagList": ["reprovado", "penalidades", "componentes", "curso"],
     "sourceList": ["https://exemplo.com/PenalidadesAoReprovar"]
+  },
+  {
+    "id": 23,
+    "question": "Quais softwares são utilizados no curso?",
+    "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
+    "tagList": ["softwares", "ferramentas", "curso"],
+    "sourceList": ["https://exemplo.com/softwares"]
   }
 ]
