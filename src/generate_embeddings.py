@@ -24,7 +24,8 @@ print(dimension)
 
 index = faiss.IndexFlatIP(dimension)
 
-embedding_norm_list = embedding_list / np.linalg.norm(embedding_list,axis=1,keepdims=True)
+from sklearn.preprocessing import normalize
+embedding_norm_list = normalize(embedding_list)
 
 index.add(embedding_norm_list)
 
