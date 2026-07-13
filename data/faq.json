@@ -170,5 +170,110 @@
     "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
     "tagList": ["softwares", "ferramentas", "curso"],
     "sourceList": ["https://exemplo.com/softwares"]
+  },
+  {
+    "id": 24,
+    "question": "Qual é o contato do professor Henrique?",
+    "answer": "Você pode entrar em contato com o professor Henrique pelo telefone institucional (81) 99872-7739 ou pelo e-mail institucional henrique.santos@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Henrique", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 25,
+    "question": "Qual é o contato da professora Aida Ferreira?",
+    "answer": "Você pode falar com a professora Aida Ferreira pelo e-mail institucional aidaferreira@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Aida", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 26,
+    "question": "Qual é o contato do professor Anderson Moreira?",
+    "answer": "O contato do professor Anderson Moreira é pelo e-mail institucional anderson.moreira@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Anderson", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 27,
+    "question": "Qual é o contato do professor Eduardo Vasconcelos?",
+    "answer": "Para falar com o professor Eduardo Vasconcelos, envie um e-mail para eduardo.vasconcelos@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Eduardo", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 28,
+    "question": "Qual é o contato do professor Marco Domingues?",
+    "answer": "Você pode contatar o professor Marco Domingues através do e-mail institucional marcodomingues@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Marco Domingues", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 29,
+    "question": "Qual é o contato do professor Marcos Costa?",
+    "answer": "Para entrar em contato com o professor Marcos Costa, utilize o e-mail institucional marcoscosta@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Marcos Costa", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+    {
+    "id": 30,
+    "question": "Qual é o contato do professor Marco Eugênio?",
+    "answer": "O professor Marco Eugênio pode ser contatado pelo e-mail marcoeugenio@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Marco Eugênio", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 31,
+    "question": "Qual é o contato do professor Paulo Abadie?",
+    "answer": "O e-mail institucional do professor Paulo Abadie é paulo.abadie@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Paulo Abadie", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 32,
+    "question": "Qual é o contato do professor Paulo Gonçalves?",
+    "answer": "Você pode falar com o professor Paulo Gonçalves pelo e-mail paulogoncalves@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Paulo Gonçalves", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 33,
+    "question": "Qual é o contato do professor Ramide Dantas?",
+    "answer": "Para contatar o professor Ramide Dantas, envie um e-mail para ramidedantas@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Ramide", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 34,
+    "question": "Qual é o contato da professora Renata Freire?",
+    "answer": "Você pode contatar a professora Renata Freire pelo e-mail institucional renatafreire@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Renata Freire", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 35,
+    "question": "Qual é o contato do professor Vilmar Nepomuceno?",
+    "answer": "O professor Vilmar Nepomuceno pode ser contatado pelo e-mail vilmarnepomuceno@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Vilmar", "duvidas"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 36,
+    "question": "Qual é o contato do professor Alandeives de Almeida?",
+    "answer": "Para falar com o professor Alandeives, utilize o e-mail institucional: alandeives@recife.ifpe.edu.br. Além disso, o professor também disponibiliza um telefone institucional no grupo da turma no WhatsApp.",
+    "tagList": ["contato", "professor", "Alandeives"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+  "id": 37,
+  "question": "Qual é o contato da professora Heloísa Rodrigues?",
+  "answer": "Você pode entrar em contato com a professora Heloísa Rodrigues pelo e-mail institucional: heloisarodrigues@recife.ifpe.edu.br.",
+  "tagList": ["contato", "professor", "Heloísa"],
+  "sourceList": ["https://exemplo.com/professores-contatos"]
+  },
+  {
+    "id": 38,
+    "question": "Qual é o contato do professor Tiago Falcão?",
+    "answer": "O professor Tiago Falcão pode ser contatado pelo e-mail institucional: tiago.falcao@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Tiago Falcão"],
+    "sourceList": ["https://exemplo.com/professores-contatos"]
   }
 ]
