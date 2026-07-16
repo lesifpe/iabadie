@@ -47,11 +47,11 @@ _{best_result['question']}_
 
         """
 
-        with st.chat_message("assistant"):
-            st.markdown(response)
+    with st.chat_message("assistant"):
+        st.markdown(response)
 
-        st.session_state["message_list"].append({
-            "role": "assistant",
-            "content": response
-        })
+    st.session_state["message_list"].append({
+        "role": "assistant",
+        "content": response
+    })
 
