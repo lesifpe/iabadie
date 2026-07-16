@@ -177,5 +177,3 @@ O `(venv)` não é um comando — é só um indicador de que o ambiente virtual 
 **Resposta "Não encontrei uma resposta para essa pergunta"**
 O sistema não encontrou nenhuma pergunta no FAQ com similaridade suficiente. Tente reformular a pergunta ou adicione perguntas mais abrangentes ao `faq.json`.
 
-<!-- versão da branch A -->
-<!-- versão da branch B -->
