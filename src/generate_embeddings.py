@@ -2,7 +2,7 @@ import json
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-
+from sklearn.preprocessing import normalize
 FAQ_PATH = "./data/faq.json"
 EMBEDDINGS_PATH = "./embeddings/faq.index"
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
@@ -24,7 +24,7 @@ print(dimension)
 
 index = faiss.IndexFlatIP(dimension)
 
-embedding_norm_list = embedding_list / np.linalg.norm(embedding_list,axis=1,keepdims=True)
+embedding_norm_list = normalize(embedding_list)
 
 index.add(embedding_norm_list)
 
