@@ -170,5 +170,12 @@
     "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
     "tagList": ["softwares", "ferramentas", "curso"],
     "sourceList": ["https://exemplo.com/softwares"]
+  },
+  {
+    "id": 24,
+    "question": "Como clonar o arquivo do git?",
+    "answer": "no seu terminal use o comando git clone e clone com a url do seu negocio aí",
+    "tagList": ["abandono", "git", "clone"],
+    "sourceList": ["www.chatgpt.com"] 
   }
 ]
