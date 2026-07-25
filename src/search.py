@@ -38,7 +38,8 @@ def search(user_question):
             result_list.append({
                 "question": item["question"],
                 "answer": item["answer"],
-                "score": float(score)
+                "score": float(score),
+                "sourceList": item.get("sourceList", [])
             })
 
     return result_list
