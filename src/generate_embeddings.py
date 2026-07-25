@@ -16,11 +16,7 @@ model = SentenceTransformer(MODEL_NAME)
 
 embedding_list = model.encode(question_list, show_progress_bar=True)
 
-print(embedding_list)
-
 dimension = embedding_list.shape[1]
-
-print(dimension)
 
 index = faiss.IndexFlatIP(dimension)
 
