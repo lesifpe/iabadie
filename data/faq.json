@@ -4,112 +4,121 @@
     "question": "Preciso fazer estágio obrigatório?",
     "answer": "Sim, o estágio é obrigatório.",
     "tagList": ["estagio", "curso"],
-    "sourceList": ["https://exemplo.com/estagio"]
+    "sourceList": []
   },
   {
     "id": 2,
     "question": "Quantas horas complementares são necessárias?",
     "answer": "O curso exige 120 horas de atividades complementares.",
     "tagList": ["horas complementares", "curso"],
-    "sourceList": ["https://exemplo.com/horas-complementares"]
+    "sourceList": [
+      {
+        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
+        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
+      },
+      {
+        "title": "Formulário de Requerimento das Atividades Complementares (arquivo editável docx)",
+        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
+      }
+    ]
   },
   {
     "id": 3,
     "question": "Qual a duração do curso?",
     "answer": "A duração média do curso é de 3 anos.",
     "tagList": ["duracao", "curso"],
-    "sourceList": ["https://exemplo.com/duracao"]
+    "sourceList": []
   },
   {
     "id": 4,
     "question": "Posso trancar o curso?",
     "answer": "Sim, é possível trancar o curso seguindo as regras da instituição.",
     "tagList": ["trancamento", "curso"],
-    "sourceList": ["https://exemplo.com/trancamento"]
+    "sourceList": []
   },
   {
     "id": 5,
     "question": "Como funciona o TCC?",
     "answer": "O TCC é um trabalho final obrigatório com orientação de um professor.",
     "tagList": ["tcc", "curso"],
-    "sourceList": ["https://exemplo.com/tcc"]
+    "sourceList": []
   },
   {
     "id": 6,
     "question": "Posso aproveitar disciplinas de outro curso?",
     "answer": "Sim, mediante análise e aprovação da coordenação.",
     "tagList": ["aproveitamento", "curso"],
-    "sourceList": ["https://exemplo.com/aproveitamento"]
+    "sourceList": []
   },
   {
     "id": 7,
     "question": "Como funciona a matrícula?",
     "answer": "A matrícula deve ser feita online dentro do prazo estabelecido.",
     "tagList": ["matricula", "processo"],
-    "sourceList": ["https://exemplo.com/matricula"]
+    "sourceList": []
   },
   {
     "id": 8,
     "question": "O curso é presencial ou EAD?",
     "answer": "O curso é totalmente presencial.",
     "tagList": ["modalidade", "curso"],
-    "sourceList": ["https://exemplo.com/modalidade"]
+    "sourceList": []
   },
   {
     "id": 9,
     "question": "Existe limite de faltas?",
     "answer": "Sim, o aluno deve ter no mínimo 75% de presença.",
     "tagList": ["faltas", "regras"],
-    "sourceList": ["https://exemplo.com/faltas"]
+    "sourceList": []
   },
   {
     "id": 10,
     "question": "O que fazer para destrancar o curso?",
     "answer": "Faça um requerimento digital encaminhando para o PROTOCOLO GERAL, solicitando o que precisa",
     "tagList": ["destrancamento", "curso", "destrancar"],
-    "sourceList": ["https://exemplo.com/destrancamento"]
+    "sourceList": []
   },
   {
     "id": 11,
     "question": "Olá",
     "answer": "Olá, tudo bem? Em que posso ajudar?",
     "tagList": ["saudacao", "atendimento", "oi"],
-    "sourceList": ["https://exemplo.com/saudacao"]
+    "sourceList": []
   },
   {
     "id": 12,
     "question": "Preciso de um comprovante de matrícula para o VEM. Como fazer?",
     "answer": "Você pode emitir a declaração diretamente pelo Q-Acadêmico. O documento possui um código de verificação que comprova sua autenticidade e será aceito por ser um documento oficial do IFPE.",
     "tagList": ["VEM", "documento", "comprovante", "onibus"],
-    "sourceList": ["https://exemplo.com/vem-solicitacao"]
+    "sourceList": []
   },
   {
     "id": 13,
     "question": "O que significa “Situação: abandono/evasão”? ",
     "answer": "Significa que o aluno não realizou matrícula nem solicitou trancamento no período correto. Nesse caso, é necessário procurar o DGCA para verificar possibilidades de reativação.",
     "tagList": ["abandono", "evasao", "matricula"],
-    "sourceList": ["https://exemplo.com/abandono-evasao"]
+    "sourceList": []
   },
   {
     "id": 14,
     "question": "Qual o canal oficial para comunicar com a coordenação do curso?",
     "answer": "O canal oficial para comunicar com a coordenação do curso é o email institucional: tads@recife.ifpe.edu.br.",
     "tagList": ["canal", "coordenacao", "curso", "email", "contato"],
-    "sourceList": ["https://exemplo.com/coordenacao-contato"]
+    "sourceList": []
   },
   {
     "id": 15,
     "question": "O que fezer se meu nome ou algum dado pessoal estiver errado no Q-acadêmico?",
     "answer": "Envie um requerimento digital para a DGCA solicitando a regularização de dados pessoais. Deverá anexar ao requerimento documentos que comprovem a alteração (RG e Certidão de Nascimento).",
     "tagList": ["dados-errados", "q-academico"],
-    "sourceList": ["https://exemplo.com/dodosErradosQacademico"]
+    "sourceList": []
   },
   {
     "id": 16,
     "question": "Preciso cancelar ou incluir uma disciplina. O que eu faço?",
     "answer": "Faça um requerimento digital encaminhando para o departamento de controle acadêmico (DGCA no email “registrosuperior”) e copiando a coordenação (CTADS), solicitando o que precisa. O arquivo PDF editável do requerimento se encontra na seção de links deste FAQ.",
     "tagList": ["disciplina", "adicionar disciplina", "remover disciplina"],
-    "sourceList": ["https://exemplo.com/adicionarERemoverDisciplinas"]
+    "sourceList": []
   },
   {
     "id": 17,
@@ -121,28 +130,28 @@
       "aulas-sincronas",
       "flexibilidade-horarios"
     ],
-    "sourceList": ["https://exemplo.com/hoarioDasAulasModeloRemoto"]
+    "sourceList": []
   },
   {
     "id": 18,
     "question": "O que é o curso de TADS? O que vou aprender?",
     "answer": "Uma visão rápida do curso de TADS é apresentada no vídeo institucional que está no próximo link. No mesmo canal, há vídeos para outros cursos do IFPE https://bit.ly/3kLkTMV",
     "tagList": ["curso", "tads", "iniciante"],
-    "sourceList": ["https://exemplo.com/oQueAprendemosEmTADS"]
+    "sourceList": []
   },
   {
     "id": 19,
     "question": "Qual o turno do curso?  Vou estudar pela manhã, à tarde ou à noite?",
     "answer": "O curso funciona pela manhã e à noite, geralmente com três turmas  em cada turno. No primeiro semestre do ano, as turmas ímpares são pela manhã (1, 3, 5)  e as turmas pares (2, 4, 6) ocorrem à noite. No segundo semestre do ano esta ordem se inverte. Não há procedimento formal para troca de turno. O aluno deverá se matricular nos componentes de acordo com a sua possibilidade de cursar as disciplinas e também, preferencialmente, na   ordem em que aparecem nos períodos.",
     "tagList": ["turno", "curso"],
-    "sourceList": ["https://exemplo.com/turnosDoCurso"]
+    "sourceList": []
   },
   {
     "id": 20,
     "question": "Preciso de um comprovante de matrícula para o VEM. Como fazer?",
     "answer": "Para solicitar o VEM Estudante, obtenha uma declaração de matrícula pelo Q-Acadêmico ou solicite o documento ao DGCA (Registro Superior) utilizando seu e-mail institucional. No pedido, informe seu nome e número de matrícula. A declaração é enviada digitalmente por e-mail em até 5 dias úteis e pode ser utilizada como comprovante oficial de vínculo com o IFPE.",
     "tagList": ["vem", "comprovante-matricula", "vem-estudantil"],
-    "sourceList": ["https://exemplo.com/vemEstudantil"]
+    "sourceList": []
   },
   {
     "id": 21,
@@ -155,125 +164,125 @@
       "documentacao",
       "processo"
     ],
-    "sourceList": ["https://exemplo.com/documentacaoParaProcesso"]
+    "sourceList": []
   },
   {
     "id": 22,
     "question": "Fui reprovado em todos os componentes do período. Perco o curso? Há alguma penalidade?",
     "answer": "Não há penalidade por reprovar todas as disciplinas no primeiro período. Entretanto, isso reduz sua média geral, o que pode impactar futuras oportunidades como bolsas, monitorias, projetos de pesquisa, extensão, intercâmbios e alguns processos seletivos. É importante manter a matrícula ativa a cada semestre para evitar caracterização de evasão e possível desligamento do curso. Para mais informações, consulte a Organização Acadêmica Institucional (OAI).",
     "tagList": ["reprovado", "penalidades", "componentes", "curso"],
-    "sourceList": ["https://exemplo.com/PenalidadesAoReprovar"]
+    "sourceList": []
   },
   {
     "id": 23,
     "question": "Quais softwares são utilizados no curso?",
     "answer": "Os principais softwares utilizados no curso de ADS incluem VS Code, Git, GitHub, e ferramentas de desenvolvimento web e banco de dados.",
     "tagList": ["softwares", "ferramentas", "curso"],
-    "sourceList": ["https://exemplo.com/softwares"]
+    "sourceList": []
   },
   {
     "id": 24,
     "question": "Qual é o contato do professor Henrique?",
     "answer": "Você pode entrar em contato com o professor Henrique pelo telefone institucional (81) 99872-7739 ou pelo e-mail institucional henrique.santos@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Henrique", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 25,
     "question": "Qual é o contato da professora Aida Ferreira?",
     "answer": "Você pode falar com a professora Aida Ferreira pelo e-mail institucional aidaferreira@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Aida", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 26,
     "question": "Qual é o contato do professor Anderson Moreira?",
     "answer": "O contato do professor Anderson Moreira é pelo e-mail institucional anderson.moreira@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Anderson", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 27,
     "question": "Qual é o contato do professor Eduardo Vasconcelos?",
     "answer": "Para falar com o professor Eduardo Vasconcelos, envie um e-mail para eduardo.vasconcelos@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Eduardo", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 28,
     "question": "Qual é o contato do professor Marco Domingues?",
     "answer": "Você pode contatar o professor Marco Domingues através do e-mail institucional marcodomingues@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Marco Domingues", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 29,
     "question": "Qual é o contato do professor Marcos Costa?",
     "answer": "Para entrar em contato com o professor Marcos Costa, utilize o e-mail institucional marcoscosta@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Marcos Costa", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
-    {
+  {
     "id": 30,
     "question": "Qual é o contato do professor Marco Eugênio?",
     "answer": "O professor Marco Eugênio pode ser contatado pelo e-mail marcoeugenio@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Marco Eugênio", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 31,
     "question": "Qual é o contato do professor Paulo Abadie?",
     "answer": "O e-mail institucional do professor Paulo Abadie é paulo.abadie@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Paulo Abadie", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 32,
     "question": "Qual é o contato do professor Paulo Gonçalves?",
     "answer": "Você pode falar com o professor Paulo Gonçalves pelo e-mail paulogoncalves@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Paulo Gonçalves", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 33,
     "question": "Qual é o contato do professor Ramide Dantas?",
     "answer": "Para contatar o professor Ramide Dantas, envie um e-mail para ramidedantas@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Ramide", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 34,
     "question": "Qual é o contato da professora Renata Freire?",
     "answer": "Você pode contatar a professora Renata Freire pelo e-mail institucional renatafreire@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Renata Freire", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 35,
     "question": "Qual é o contato do professor Vilmar Nepomuceno?",
     "answer": "O professor Vilmar Nepomuceno pode ser contatado pelo e-mail vilmarnepomuceno@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Vilmar", "duvidas"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
     "id": 36,
     "question": "Qual é o contato do professor Alandeives de Almeida?",
     "answer": "Para falar com o professor Alandeives, utilize o e-mail institucional: alandeives@recife.ifpe.edu.br. Além disso, o professor também disponibiliza um telefone institucional no grupo da turma no WhatsApp.",
     "tagList": ["contato", "professor", "Alandeives"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   },
   {
-  "id": 37,
-  "question": "Qual é o contato da professora Heloísa Rodrigues?",
-  "answer": "Você pode entrar em contato com a professora Heloísa Rodrigues pelo e-mail institucional: heloisarodrigues@recife.ifpe.edu.br.",
-  "tagList": ["contato", "professor", "Heloísa"],
-  "sourceList": ["https://exemplo.com/professores-contatos"]
+    "id": 37,
+    "question": "Qual é o contato da professora Heloísa Rodrigues?",
+    "answer": "Você pode entrar em contato com a professora Heloísa Rodrigues pelo e-mail institucional: heloisarodrigues@recife.ifpe.edu.br.",
+    "tagList": ["contato", "professor", "Heloísa"],
+    "sourceList": []
   },
   {
     "id": 38,
     "question": "Qual é o contato do professor Tiago Falcão?",
     "answer": "O professor Tiago Falcão pode ser contatado pelo e-mail institucional: tiago.falcao@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Tiago Falcão"],
-    "sourceList": ["https://exemplo.com/professores-contatos"]
+    "sourceList": []
   }
 ]
