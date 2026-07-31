@@ -35,7 +35,17 @@ if user_input:
     else:
         best_result = result_list[0]
         confidence = int(best_result["score"] * 100)
-        
+
+        source_list = best_result.get("sourceList", [])
+
+        sources_text = ""
+        if source_list:
+            source_line_list = [
+                f"- [{source['title']}]({source['url']})"
+                for source in source_list
+            ]
+            sources_text = "\n\n**Links úteis:**\n" + "\n".join(source_line_list)
+
         response = f"""
 **Pergunta similar encontrada:**
 _{best_result['question']}_
@@ -44,6 +54,7 @@ _{best_result['question']}_
 {best_result['answer']}
 
 **Confiança:** {confidence}%
+{sources_text}
 
         """
 
