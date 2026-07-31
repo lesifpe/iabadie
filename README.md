@@ -143,7 +143,16 @@ Abra o arquivo `data/faq.json` e adicione um novo objeto seguindo o padrão:
   "question": "Sua pergunta aqui?",
   "answer": "A resposta aqui.",
   "tagList": ["tag1", "tag2"],
-  "sourceList": ["https://link-da-fonte.com"]
+  "sourceList": [
+    {
+      "title": "Título do link 1",
+       "url": "https://link-da-fonte.com"
+    },
+    {
+      "title": "Título do link 2",
+      "url": "https://link-da-fonte.com"
+    }
+  ]
 }
 ```
 
