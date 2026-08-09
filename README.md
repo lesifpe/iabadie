@@ -17,9 +17,11 @@ Tudo roda localmente no seu computador, sem enviar dados para nenhum serviço ex
     - [3 — Ativar o ambiente virtual](#3--ativar-o-ambiente-virtual)
     - [4 — Instalar as dependências](#4--instalar-as-dependências)
     - [5 — Gerar os embeddings do FAQ](#5--gerar-os-embeddings-do-faq)
-    - [6 — Rodar o app](#6--rodar-o-app)
+    - [6 — Ollama precisa estar rodando](#6--ollama-precisa-estar-rodando)
+    - [7 — Rodar o app](#7--rodar-o-app)
   - [Estrutura do projeto](#estrutura-do-projeto)
   - [Como adicionar perguntas ao FAQ](#como-adicionar-perguntas-ao-faq)
+  - [Sobre a resposta em linguagem natural](#sobre-a-resposta-em-linguagem-natural)
   - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Problemas comuns](#problemas-comuns)
 
@@ -32,6 +34,8 @@ Antes de começar, instale:
 - **Python 3.10 ou superior** — [python.org/downloads](https://www.python.org/downloads/)
 - **Git** — [git-scm.com/downloads](https://git-scm.com/downloads)
 - **Microsoft Visual C++ Redistributable** (apenas Windows) — [download aqui](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- **Ollama** — [ollama.com/download](https://ollama.com/download)
+- Modelo local baixado via: `ollama pull llama3.2:3b`
 
 > Para verificar se o Python já está instalado, abra o terminal e digite:
 > ```
@@ -82,7 +86,7 @@ source venv/bin/activate
 ### 4 — Instalar as dependências
 
 ```bash
-pip install sentence-transformers streamlit faiss-cpu
+pip install sentence-transformers streamlit faiss-cpu ollama
 ```
 
 > Isso pode demorar alguns minutos na primeira vez.
@@ -106,7 +110,17 @@ Embeddings salvos em ./embeddings/faq.index
 
 ---
 
-### 6 — Rodar o app
+### 6 — Ollama precisa estar rodando
+
+Antes de iniciar o app, garanta que o Ollama está ativo em background (normalmente inicia sozinho após instalação). Teste com:
+
+```bash
+ollama list
+```
+
+---
+
+### 7 — Rodar o app
 
 ```bash
 streamlit run src/app.py
@@ -127,6 +141,7 @@ iabadie/
 ├── src/
 │   ├── generate_embeddings.py  # gera e salva os vetores do FAQ
 │   ├── search.py               # função de busca semântica
+│   ├── generate_response.py    # gera resposta natural via Ollama local
 │   └── app.py                  # interface visual do chat
 └── README.md
 ```
@@ -164,6 +179,14 @@ python src/generate_embeddings.py
 
 ---
 
+## Sobre a resposta em linguagem natural
+
+O sistema usa um modelo local (via Ollama) para reformular a resposta do FAQ em linguagem mais natural. Isso roda 100% na sua máquina — nenhum dado é enviado para fora.
+
+⚠️ **Atenção:** modelos locais leves podem alterar números por engano (alucinação). A pergunta e resposta originais do FAQ ficam sempre disponíveis no accordion **"Ver fonte"**, abaixo de cada resposta, para conferência.
+
+---
+
 ## Tecnologias utilizadas
 
 | Tecnologia                                         | Para que serve                                                          |
@@ -172,6 +195,7 @@ python src/generate_embeddings.py
 | [FAISS](https://github.com/facebookresearch/faiss) | Busca vetorial eficiente — encontra os vetores mais similares           |
 | [Streamlit](https://streamlit.io/)                 | Interface visual de chat no navegador                                   |
 | Modelo `paraphrase-multilingual-MiniLM-L12-v2`     | Modelo de linguagem leve com suporte a português, roda 100% local       |
+| [Ollama](https://ollama.com/)                      | Roda LLM local para gerar respostas em linguagem natural                |
 
 ---
 
