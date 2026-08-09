@@ -1,5 +1,6 @@
 import streamlit as st
 from search import search
+from generate_response import generate_natural_response
 
 st.set_page_config(
     page_title="IAbadie - A IA para responder dúvidas sobre o curso de ADS",
@@ -34,35 +35,20 @@ if user_input:
 
     else:
         best_result = result_list[0]
-        confidence = int(best_result["score"] * 100)
-
-        source_list = best_result.get("sourceList", [])
-
-        sources_text = ""
-        if source_list:
-            source_line_list = [
-                f"- [{source['title']}]({source['url']})"
-                for source in source_list
-            ]
-            sources_text = "\n\n**Links úteis:**\n" + "\n".join(source_line_list)
-
-        response = f"""
-**Pergunta similar encontrada:**
-_{best_result['question']}_
-
-**Resposta:**
-{best_result['answer']}
-
-**Confiança:** {confidence}%
-{sources_text}
-
-        """
+        response = generate_natural_response(user_input, best_result["answer"])
 
         with st.chat_message("assistant"):
             st.markdown(response)
+            if best_result.get("sourceList"):
+                st.markdown("**Links úteis:**")
+                for source in best_result["sourceList"]:
+                    st.markdown(f"- [{source['title']}]({source['url']})")
+            with st.expander("Ver fonte"):
+                st.markdown(f"**Pergunta similar encontrada:** {best_result['question']}")
+                st.markdown(f"**Resposta original:** {best_result['answer']}")
+                st.markdown(f"**Confiança:** {int(best_result['score'] * 100)}%")
 
         st.session_state["message_list"].append({
             "role": "assistant",
             "content": response
         })
-
