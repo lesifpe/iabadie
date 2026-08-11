@@ -1,8 +1,6 @@
 /node_modules
 venv/
-
-embeddings/*
 !embeddings/.gitkeep
 
-__pycache__/
-*.pyc
+__pycache__ /
+*.pyc(venv)
