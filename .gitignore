@@ -2,8 +2,5 @@
 venv/
 venv311/
 
-embeddings/*
-!embeddings/.gitkeep
-
 __pycache__/
 *.pyc
