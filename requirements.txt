@@ -1,5 +1,5 @@
-faiss-cpu==1.14.2
-numpy==2.4.6
-scikit-learn==1.8.0
-sentence-transformers==5.5.1
-streamlit==1.58.0
+streamlit
+sentence-transformers
+faiss-cpu
+llama-cpp-python==0.2.90
+huggingface_hub
