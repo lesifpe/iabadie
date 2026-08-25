@@ -1,5 +1,6 @@
 /node_modules
 venv/
+venv311/
 
 embeddings/*
 !embeddings/.gitkeep
