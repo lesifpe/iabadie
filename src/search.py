@@ -32,7 +32,7 @@ def search(user_question):
 
     for score, faq_index in zip(score_list,index_list):
         item = faq[faq_index]
-        print(f"Score: {score:.4f} | Pergunta: {item["question"]}")
+        print(f"Score: {score:.4f} | Pergunta: {item['question']}")
         
         if score >= MIN_SCORE:
             result_list.append({
