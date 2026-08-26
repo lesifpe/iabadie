@@ -108,7 +108,7 @@
   },
   {
     "id": 15,
-    "question": "O que fezer se meu nome ou algum dado pessoal estiver errado no Q-acadêmico?",
+    "question": "O que fazer se meu nome ou algum dado pessoal estiver errado no Q-acadêmico?",
     "answer": "Envie um requerimento digital para a DGCA solicitando a regularização de dados pessoais. Deverá anexar ao requerimento documentos que comprovem a alteração (RG e Certidão de Nascimento).",
     "tagList": ["dados-errados", "q-academico"],
     "sourceList": []
