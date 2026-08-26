@@ -4,10 +4,10 @@ from huggingface_hub import hf_hub_download
 
 MODEL_PATH = hf_hub_download(
     repo_id="Qwen/Qwen2.5-0.5B-Instruct-GGUF",
-    filename="qwen2.5-0.5b-instruct-q4_k_m.gguf"
+    filename="qwen2.5-0.5b-instruct-q4_0.gguf"
 )
 
-llm = Llama(model_path=MODEL_PATH, n_ctx=2048, n_threads=2, verbose=False)
+llm = Llama(model_path=MODEL_PATH, n_ctx=512, n_threads=2, n_batch=512, verbose=False)
 
 SYSTEM_PROMPT = """Você reescreve uma resposta de perguntas frequentes (FAQ) do curso de Análise e Desenvolvimento de Sistemas (ADS), de forma natural, em português, de modo curto, direto e natural.
 
@@ -57,7 +57,7 @@ def generate_natural_response(user_question, faq_answer):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": f"Pergunta: {user_question}\nInformação: {faq_answer}"}
         ],
-        max_tokens=80,
+        max_tokens=60,
         temperature=0.2,
     )
     raw = response["choices"][0]["message"]["content"]
