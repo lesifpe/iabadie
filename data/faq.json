@@ -531,5 +531,67 @@
     "answer": "O cálculo é: carga horária total cumprida dividida pela carga horária total prevista (Acesso a esses dados no Histórico Escolar: coluna CH Total).\n\nNormalmente alunos entre 0 (zero) e 25% de carga horária concluída são ingressantes e participam respondendo questionário, mas não fazem prova.\n\nJá alunos entre 75 e 100% de carga horária concluída, mas que não colaram grau, são concluintes e participam do questionário e da prova.\n\nExemplo: o estudante com CH Total cumprida 1984,5 e CH Total prevista 2705 não participa do ENADE pois 1984,5 / 2705 = 0,7336, ou seja, 73%.",
     "tagList": ["enade"],
     "sourceList": []
+  },
+  {
+    "id": 61,
+    "question": "O que são requisitos de conclusão de curso?",
+    "answer": "São todos os requisitos que precisam ser cumpridos para conclusão do curso. Se faltar algum deles, o aluno não poderá colar grau.\n\nCada matriz curricular possui um conjunto específico de requisitos, definidos pelo PPC - Projeto Pedagógico do Curso, que podem mudar cada vez que o projeto é atualizado, embora haja requisitos que são obrigatórios por lei.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Quais são os requisitos de conclusão de curso?",
+    "answer": "A resposta muda conforme a sua matriz curricular:\n\nMatriz curricular de ADS de 2023:\n1. Cumprir todos os componentes curriculares (disciplinas).\n2. Cumprir a prática profissional.\n3. Cumprir as atividades complementares.\n4. Cumprir com o ENADE.\n5. Não possuir pendências com a biblioteca.\n\nMatriz curricular de ADS de 2012:\n1. Cumprir todos os componentes curriculares (disciplinas).\n2. Estágio obrigatório.\n3. Apresentar e defender o trabalho de conclusão de curso.\n4. Atividades complementares.\n5. Cumprir com o ENADE.",
+    "tagList": ["conclusao", "requisitos", "resposta-muda-conforme-matriz"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Faço parte da matriz curricular antiga (antes de 2012.02), sou obrigado a mudar para a nova?",
+    "answer": "Não. Alunos da matriz curricular antiga podem, se quiser, mudar para a matriz mais nova.\n\nJá alunos novos sempre entram no curso na matriz curricular mais nova e não podem voltar para uma matriz antiga.",
+    "tagList": ["mudanca-de-matriz"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Como sei se estou apto a me formar?",
+    "answer": "O aluno está apto a se formar quando cumpriu todos os requisitos de colação de grau e está em situação regular junto ao curso.\n\nAlém disso, é necessário que o registro superior e a coordenação verifiquem todos esses requisitos e incluam o aluno na listagem de formandos, que será enviada à comissão de eventos. Esta verificação é realizada por mais de um setor,  por segurança.\n\nO aluno precisa estar apto com razoável antecedência para poder colar grau. Se o aluno perder o prazo do envio da lista de formandos, não poderá colar grau no evento correspondente e precisará esperar a colação seguinte.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": []
+  },
+  {
+    "id": 65,
+    "question": "Como posso verificar requisitos de conclusão?",
+    "answer": "A forma mais segura é pedir à CGCA ou ao seu coordenador para verificar os requisitos.\n\nNo entanto, o estudante pode ter uma prévia ao acessar o histórico escolar.A tabela que aparece ao final do histórico tem duas linhas: horas previstas e cumpridas. Se todas as horas aparecem como cumpridas, quer dizer que você tem boa parte dos requisitos.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": []
   }
 ]
