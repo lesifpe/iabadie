@@ -423,5 +423,64 @@
     "answer": "Converse com seus colegas e monte um grupo. Fale com a coordenação com antecedência (no início do semestre anterior) e peça a disciplina para o semestre seguinte.\n\nDisciplinas com alta demanda provavelmente terão prioridade, porém outros fatores também serão considerados, como restrições de horário e professores disponíveis.",
     "tagList": ["disciplina", "disciplina-optativa", "disciplina-eletiva"],
     "sourceList": []
+  },
+  {
+    "id": 47,
+    "question": "Já cursei disciplinas/matérias em outra faculdade ou curso, gostaria de aproveitar disciplinas externas para não precisar cursar novamente. É possível?",
+    "answer": "Sim, é possível. Abra um processo pedindo a dispensa com todos os documentos necessários para embasar seu pedido. Deve ser feito no período correto, então observe o calendário acadêmico.",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": []
+  },
+  {
+    "id": 48,
+    "question": "O que é observado na análise para aproveitar disciplinas/matérias externas?",
+    "answer": "1. Suas disciplinas devem ser de um curso superior.\n\n    OBS: Há um caso particular para disciplinas do técnico, dentro do IFPE: veja a OAI)\n\n2. A carga horária deve ser compatível (percentuais na OAI).\n\n3. A ementa deve ser compatível (percentuais na OAI).\n\n4. Se for possível, podemos usar mais de uma disciplina externa para dispensar uma disciplina interna do curso de TADS, de modo a compor a carga horária necessária ou a ementa. Ou seja, respeitando a regra de equivalência.",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": [
+      {
+        "title": "OAI - Organização Acadêmica Institucional (PDF)",
+        "url": "https://portal.ifpe.edu.br/wp-content/uploads/2026/01/Resolucao-320-2026-Aprova-a-atualizacao-da-Organizacao-Academica-Institucional-do-IFPE.pdf"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qual o procedimento para abrir o pedido de aproveitamento de disciplinas externas?",
+    "answer": "Envie os seguintes documentos para o Protocolo Geral (Fone: 2125-1642, E-mail: protocologeral@recife.ifpe.edu.br):\n\n1. O requerimento digital solicitando \"Aproveitamento de disciplinas externas\", indicando as disciplinas externas cursadas e as disciplinas a serem dispensadas.\n2. Cópia legível da identidade e CPF.\n3.Cópia do seu histórico escolar do curso externo, devidamente assinada de forma digital (ou assinada com caneta e carimbada).\n4. Cópia das ementas do curso com carga horária e conteúdo programático das disciplinas que serão analisadas.\n5. Quaisquer comprovantes que auxiliem na análise da equivalência, ou que demonstrem claramente evidências do conhecimento adquirido.\n\nPara a devida análise, pode ser necessária a \"Avaliação de saberes e competências\".",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": [
+      {
+        "title": "Requerimento (PDF)",
+        "url": "https://drive.google.com/file/d/1zQ7gvVcKJv2hxGJi7kz2Wkk4j__H0-1g/view"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Posso dispensar disciplinas/matérias/cadeiras que já sei ou componentes em que já possuo as competências/conhecimento?",
+    "answer": "Caso o estudante julgue que já possui o conhecimento mínimo necessário de uma disciplina, é possível ser dispensado após \"Avaliação de saberes e competências\" por uma banca especial, através de prova escrita, oral, apresentação ou qualquer outro meio que a banca julgar adequado.\n\nO estudante não precisa estar matriculado na disciplina para pedir dispensa. Mas se estiver, não tem problema, pois a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 51,
+    "question": "O que é avaliação de saberes e competências?",
+    "answer": "É a avaliação feita por uma banca especial para avaliar se um estudante tem o conhecimento necessário para dispensar disciplina/matéria.\n\nCaso o estudante julgue que já possui o conhecimento mínimo necessário de uma disciplina, ele realiza a prova escrita, oral, apresentação ou qualquer outro meio que a banca julgar adequado.\n\nO estudante não precisa estar matriculado na disciplina para pedir dispensa. Mas se estiver, não tem problema, pois a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 52,
+    "question": "Posso fazer avaliação de saberes e competências se já estou matriculado na disciplina/matéria/cadeira?",
+    "answer": "Sim, a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 53,
+    "question": "Posso pedir novamente a avaliação de saberes e competências se já fui reprovado na primeira vez?",
+    "answer": "Não. A avaliação ocorre uma única vez para cada disciplina.\n\nO estudante pode contestar a reprovação através de recurso.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
   }
 ]
