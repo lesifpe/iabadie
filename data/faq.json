@@ -482,5 +482,54 @@
     "answer": "Não. A avaliação ocorre uma única vez para cada disciplina.\n\nO estudante pode contestar a reprovação através de recurso.",
     "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
     "sourceList": []
+  },
+  {
+    "id": 54,
+    "question": "O que é ENADE?",
+    "answer": "O Enade (Exame Nacional de Desempenho dos Estudantes) é uma prova criada pelo governo federal para medir a qualidade dos cursos de graduação no Brasil.\n\nO ENADE ocorre a cada 3 anos para os cursos superiores. Toda edição do exame tem o seu edital.",
+    "tagList": ["enade"],
+    "sourceList": []
+  },
+  {
+    "id": 55,
+    "question": "Posso colar grau sem fazer ENADE? Posso me formar sem realizar a prova do ENADE?",
+    "answer": "Na maioria das vezes, sim. Porém depende do edital de cada avaliação, emitido anualmente.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 56,
+    "question": "Já fiz o ENADE uma vez, preciso fazer de novo?",
+    "answer": "Caso passe o tempo e o novo ciclo do ENADE chegue, você precisará refazer o exame.\n\nEntretanto, as regras são complexas e há várias possibilidades. Assim, cada caso precisa ser avaliado individualmente.\n\nNa dúvida, consulte o edital do último exame e converse com a coordenação do curso.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 57,
+    "question": "Qual o impacto do ENADE na conclusão do curso e colação de grau?",
+    "answer": "No semestre em que há ENADE, existe um período no qual não pode ocorrer colação de grau. Ou seja, a cada 6 semestres, teremos um semestre sem colação de grau.\n\nEsse período se inicia em uma data específica definida pelo edital e termina com a publicação dos resultados do exame. Geralmente os resultados saem no início do ano seguinte.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 58,
+    "question": "Por que não há conclusão do curso e colação de grau no semestre do ENADE?",
+    "answer": "Porque o exame é requisito de conclusão dos cursos superiores. Nos semestres em que não há exame, o requisito é atendido simplesmente porque o aluno estará fora do ciclo de avaliação.\n\nNo semestre onde há o exame, o aluno precisa participar para satisfazer o requisito. Caso contrário, não poderá colar grau até estar regularizado.\n\nOs detalhes dependem de cada edital específico. Toda edição do exame tem o seu edital.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 59,
+    "question": "Quem precisa fazer o ENADE?",
+    "answer": "Todos os alunos habilitados ao exame, conforme a regra definida pelo edital. Em geral, são alunos vinculados que estejam no início e no fim do curso: ingressantes e concluintes.\n\nOs detalhes específicos dependem de cada edital. Todo ano há um edital definindo as regras e detalhes do exame.\n\nIngressantes participam. Normalmente alunos entre 0 (zero) e 25% de carga horária concluída são ingressantes. Participam respondendo questionário, mas não fazem prova pois estão entrando. Ajudam a conhecer o perfil do aluno que procura o curso e entra.\n\nConcluintes participam. Normalmente alunos entre 75 e 100% de carga horária concluída, mas que não colaram grau, são concluintes. Participam respondendo questionário, e também fazem prova, pois estão concluindo. Ajudam a conhecer o perfil do aluno que sai do curso, bem como a qualidade do próprio curso pela análise de desempenho dos alunos.\n\nO cálculo se dá pelo percentual de integralização do curso: carga horária total cumprida dividida pela carga horária total prevista (Acesso a esses dados no Histórico Escolar: coluna CH Total).\n\nTambém podem ser considerados habilitados, os alunos que atendam algum outro critério específico do edital, como a previsão de integralização de 100% do curso até uma data específica.\n\nGeralmente, alunos que colarem grau até antes da data limite definida pelo edital não participam do exame.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 60,
+    "question": "Como descobrir meu percentual de integralização no curso? Como saber se preciso fazer o ENADE?",
+    "answer": "O cálculo é: carga horária total cumprida dividida pela carga horária total prevista (Acesso a esses dados no Histórico Escolar: coluna CH Total).\n\nNormalmente alunos entre 0 (zero) e 25% de carga horária concluída são ingressantes e participam respondendo questionário, mas não fazem prova.\n\nJá alunos entre 75 e 100% de carga horária concluída, mas que não colaram grau, são concluintes e participam do questionário e da prova.\n\nExemplo: o estudante com CH Total cumprida 1984,5 e CH Total prevista 2705 não participa do ENADE pois 1984,5 / 2705 = 0,7336, ou seja, 73%.",
+    "tagList": ["enade"],
+    "sourceList": []
   }
 ]
