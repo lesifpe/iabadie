@@ -287,5 +287,95 @@
     "answer": "O professor Tiago Falcão pode ser contatado pelo e-mail institucional: tiago.falcao@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Tiago Falcão"],
     "sourceList": []
+  },
+  {
+    "id": 39,
+    "question": "Quantas horas complementares são necessárias?",
+    "answer": "O curso exige 120 horas de atividades complementares.",
+    "tagList": ["horas-complementares"],
+    "sourceList": [
+      {
+        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
+        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
+      },
+      {
+        "title": "Formulário Específico de Requerimento das Atividades Complementares (arquivo editável docx)",
+        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Como registrar as atividades complementares?",
+    "answer": "Siga o seguinte procedimento:\n\n1. Verifique no plano de curso da sua matriz curricular as regras de atividades complementares.\n    OBS: Cuidado com as restrições sobre a carga horária. Por exemplo, cada monitoria conta apenas 30h e só podem ser usadas no máximo 3 monitorias, no plano de curso de 2012.\n        i. É possível utilizar cursos online para cumprir atividades complementares. Os cursos precisam ser na área e ter sido realizados durante a sua graduação.\n        ii. É possível usar iniciação científica, dado que não tenha sido utilizada ao mesmo tempo para cumprir estágio.\n2. Some todas as horas respeitando as restrições e veja se atinge 120h.\n3. Preencha um formulário de requerimento.\n    i. Coloque em Observações: \"Solicito Carga Horária Complementar\", pois não consta na lista de opções.\n4. Anexe cópia de RG e CPF.\n5. Anexe cópias de todos os documentos comprobatórios das suas atividades.\n6. Anexe o PDF e o arquivo original (docx) do Formulário Específico de Requerimento das Atividades Complementares.\n7. Envie toda a documentação para o Protocolo Geral e o Registro Superior, copiando os emails (em CC) da coordenação de TADS e do técnico Carlos Borges.\nAo recebermos, a Coordenação do curso irá abrir um processo no sistema SEI, para acompanhamento.\nOs comprovantes serão verificados pelo coordenador do curso (atualmente, o professor Paulo Abadie).\nAo término do processo, suas horas serão registradas no sistema, pelo Registro Superior. O setor poderá dar informações sobre o andamento do processo.\nÉ possível conferir o registro no histórico, na tabela onde tem \"CH Comp\". Se a linha \"Cumprida\" estiver com 120, você cumpriu este requisito de conclusão.",
+    "tagList": [
+      "atividades-complementares",
+      "requerimento",
+      "exige-analise-do-coordenador",
+      "protocolo-geral",
+      "requerimento-superior",
+      "sistema-sei"
+    ],
+    "sourceList": [
+      {
+        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
+        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
+      },
+      {
+        "title": "Formulário Específico de Requerimento das Atividades Complementares (arquivo editável docx)",
+        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Como escolher a atividade complementar? Qual o melhor critério?",
+    "answer": "1. Identifique qual seu objetivo no mercado de trabalho e saiba onde deseja chegar profissionalmente.\n2. Escolha cursos e treinamentos que estejam alinhados com esses objetivos. (Por exemplo, se deseja trabalhar com cibersegurança, faça cursos nessa área)\n3. Não tem problema se sentir curiosidade por mais de uma área. Nesso caso, pode fazer atividades em mais de uma área.\nNão é recomendado fazer treinamentos sem que eles tenham um sentido profissional relevante para você.",
+    "tagList": ["atividades-complementares"],
+    "sourceList": []
+  },
+  {
+    "id": 42,
+    "question": "Onde encontrar bons cursos online com certificados?",
+    "answer": "Na escolha de cursos online, use o bom senso e peça indicação de colegas mais experientes.",
+    "tagList": ["atividades-complementares"],
+    "sourceList": [
+      {
+        "title": "Escola Virtual",
+        "url": "https://www.escolavirtual.gov.br/catalogo"
+      },
+      {
+        "title": "DIO - Digital Innovation One",
+        "url": "https://www.dio.me/ "
+      },
+      {
+        "title": "Mundi - IFSul",
+        "url": "https://mundi.ifsul.edu.br/ava/"
+      },
+      {
+        "title": "Sebrae",
+        "url": "https://sebrae.com.br/sites/PortalSebrae/cursosonline"
+      },
+      {
+        "title": "FGV - Fundação Getulio Vargas",
+        "url": "https://educacao-executiva.fgv.br/cursos/gratuitos"
+      },
+      {
+        "title": "Escolha do Trabalhador 4.0",
+        "url": "https://cadastro.escoladotrabalhador40.com.br/#/register"
+      },
+      {
+        "title": "MEC - Aprenda Mais",
+        "url": "https://aprendamais.mec.gov.br/course/index.php?categoryid=8"
+      }
+    ]
   }
 ]
