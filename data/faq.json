@@ -404,5 +404,24 @@
     "answer": "Solicite por requerimento a sua matrícula na referida disciplina. Há situações onde a equivalência já existe  no próprio sistema, e é possível pagar a disciplina em outra turma de outro curso.\n\nDe qualquer forma, cada caso será analisado individualmente pela coordenação e pelo departamento.Se for necessário, uma turma extra pode ser aberta, dado que haja todas as condições que justifiquem e permitam a turma extra.",
     "tagList": ["disciplina", "disciplina-antiga"],
     "sourceList": []
+  },
+  {
+    "id": 45,
+    "question": "É possível cursar/pagar duas disciplinas/matérias classificadas como \"Eletiva 1\"?",
+    "answer": "A resposta muda conforme a sua matriz curricular:\n\nMatriz curricular de ADS de 2023: Não há mais a distinção \"Eletiva 1\" e uma \"Eletiva 2\". Agora você tem apenas \"Disciplina Optativa\" e pode escolher qual disciplina preferir.\n\nMatriz curricular de ADS de 2012: Não é possível. Você deve pagar exatamente uma disciplina de cada grupo. Ou seja, uma \"Eletiva 1\" e uma \"Eletiva 2\".",
+    "tagList": [
+      "disciplina",
+      "disciplina-optativa",
+      "disciplina-eletiva",
+      "resposta-muda-conforme-matriz"
+    ],
+    "sourceList": []
+  },
+  {
+    "id": 46,
+    "question": "Gostaria de pagar uma disciplina/matéria eletiva, mas ela não está sendo oferecida. O que fazer?",
+    "answer": "Converse com seus colegas e monte um grupo. Fale com a coordenação com antecedência (no início do semestre anterior) e peça a disciplina para o semestre seguinte.\n\nDisciplinas com alta demanda provavelmente terão prioridade, porém outros fatores também serão considerados, como restrições de horário e professores disponíveis.",
+    "tagList": ["disciplina", "disciplina-optativa", "disciplina-eletiva"],
+    "sourceList": []
   }
 ]
