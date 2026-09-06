@@ -377,5 +377,32 @@
         "url": "https://aprendamais.mec.gov.br/course/index.php?categoryid=8"
       }
     ]
+  },
+  {
+    "id": 43,
+    "question": "Faço parte da grade antiga (antes de 2012.02) e preciso realizar complementação de carga horária para fechar alguma disciplina. Como faço?",
+    "answer": "A situação mais comum para complementação de carga horária atualmente é sobre trabalho de conclusão de curso. Neste caso, seu orientador de TCC normalmente é a pessoa que irá atribuir atividades para complementação da carga.\n\nEnvie um requerimento ao DGCA solicitando complementação de carga horária, explicando seu caso detalhadamente.\n\nDGCA - Departamento geral de controle acadêmico\nDados de contato:\n- E-mail: registrosuperior@recife.ifpe.edu.br\n- Telefone: 2125-1604\n- E-mail da chefia (somente para casos graves): dgca@recife.ifpe.edu.br\n\nSerá aberto um processo. O professor da disciplina precisará acompanhar o aluno e propor atividades extras, que serão registradas no processo para compor a carga horária adicional. Quando a carga horária estiver concluída e registrada, o processo poderá ser finalizado e a sua disciplina pendente será considerada equivalente.\n\nExistem dois formulários para registro das atividades complementares. Um será utilizado pelo professor e outro pelo aluno.",
+    "tagList": [
+      "complementacao-carga-horaria",
+      "disciplina",
+      "disciplina-antiga"
+    ],
+    "sourceList": [
+      {
+        "title": "Formulário para complementação de carga horária em disciplinas (Aluno/Discente)",
+        "url": "http://bit.ly/3s72kax"
+      },
+      {
+        "title": "Formulário para complementação de carga horária em disciplinas (Professor/Docente)",
+        "url": "http://bit.ly/2OVqXbk"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Como cumprir uma disciplina/matéria antiga que não é mais oferecida no curso?",
+    "answer": "Solicite por requerimento a sua matrícula na referida disciplina. Há situações onde a equivalência já existe  no próprio sistema, e é possível pagar a disciplina em outra turma de outro curso.\n\nDe qualquer forma, cada caso será analisado individualmente pela coordenação e pelo departamento.Se for necessário, uma turma extra pode ser aberta, dado que haja todas as condições que justifiquem e permitam a turma extra.",
+    "tagList": ["disciplina", "disciplina-antiga"],
+    "sourceList": []
   }
 ]
