@@ -1,26 +1,34 @@
 [
   {
     "id": 1,
+    "question": "O que é IAbadie? Qual o objetivo do chat? Por que esse nome?",
+    "answer": "IAbadie é uma Inteligência Artificial focada em responder dúvidas dos estudantes sobre o curso de Análise e Desenvolvimento de Sistemas (ADS) do Instituto Federal de Pernambuco (IFPE).\n\nEsse projeto é uma iniciativa sem fins lucrativos da Liga de Engenharia de Software (LES) do IFPE e surgiu em 2026, da necessidade de garantir aos estudantes o acesso fácil e rápido a informações importantes.\n\nAs informações fornecidas pelo IAbadie se baseiam no arquivo FAQ (documento Word com 59 páginas e 147 perguntas ao total).\n\nNo entanto, o IAbadie não é imune aos erros que acontecem em qualquer outra IA. Portanto, recomenda-se sempre confirmar as respostas fornecidas, considerando que elas podem estar desatualizadas, enviesadas ou serem fruto de alucinação.\n\nQuanto ao nome do projeto, trata-se de uma homenagem ao coordenador do curso: o professor Paulo Abadie Guedes.",
+    "tagList": ["iabadie", "les", "apresentacao"],
+    "sourceList": [
+      {
+        "title": "FAQ de ADS no IFPE",
+        "url": "https://bit.ly/35olIah"
+      },
+      {
+        "title": "Liga de Engenharia de Software (LES) do IFPE",
+        "url": "https://lesifpe.com.br/"
+      },
+      {
+        "title": "IAbadie (Repositório Github)",
+        "url": "https://github.com/lesifpe/iabadie"
+      },
+      {
+        "title": "IFPE",
+        "url": "https://portal.ifpe.edu.br/"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "question": "Preciso fazer estágio obrigatório?",
     "answer": "Sim, o estágio é obrigatório.",
     "tagList": ["estagio"],
     "sourceList": []
-  },
-  {
-    "id": 2,
-    "question": "Quantas horas complementares são necessárias?",
-    "answer": "O curso exige 120 horas de atividades complementares.",
-    "tagList": ["horas-complementares"],
-    "sourceList": [
-      {
-        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
-        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
-      },
-      {
-        "title": "Formulário de Requerimento das Atividades Complementares (arquivo editável docx)",
-        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
-      }
-    ]
   },
   {
     "id": 3,
