@@ -1,26 +1,34 @@
 [
   {
     "id": 1,
+    "question": "O que é IAbadie? Qual o objetivo do chat? Por que esse nome?",
+    "answer": "IAbadie é uma Inteligência Artificial focada em responder dúvidas dos estudantes sobre o curso de Análise e Desenvolvimento de Sistemas (ADS) do Instituto Federal de Pernambuco (IFPE).\n\nEsse projeto é uma iniciativa sem fins lucrativos da Liga de Engenharia de Software (LES) do IFPE e surgiu em 2026, da necessidade de garantir aos estudantes o acesso fácil e rápido a informações importantes.\n\nAs informações fornecidas pelo IAbadie se baseiam no arquivo FAQ (documento Word com 59 páginas e 147 perguntas ao total).\n\nNo entanto, o IAbadie não é imune aos erros que acontecem em qualquer outra IA. Portanto, recomenda-se sempre confirmar as respostas fornecidas, considerando que elas podem estar desatualizadas, enviesadas ou serem fruto de alucinação.\n\nQuanto ao nome do projeto, trata-se de uma homenagem ao coordenador do curso: o professor Paulo Abadie Guedes.",
+    "tagList": ["iabadie", "les", "apresentacao"],
+    "sourceList": [
+      {
+        "title": "FAQ de ADS no IFPE",
+        "url": "https://bit.ly/35olIah"
+      },
+      {
+        "title": "Liga de Engenharia de Software (LES) do IFPE",
+        "url": "https://lesifpe.com.br/"
+      },
+      {
+        "title": "IAbadie (Repositório Github)",
+        "url": "https://github.com/lesifpe/iabadie"
+      },
+      {
+        "title": "IFPE",
+        "url": "https://portal.ifpe.edu.br/"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "question": "Preciso fazer estágio obrigatório?",
     "answer": "Sim, o estágio é obrigatório.",
     "tagList": ["estagio"],
     "sourceList": []
-  },
-  {
-    "id": 2,
-    "question": "Quantas horas complementares são necessárias?",
-    "answer": "O curso exige 120 horas de atividades complementares.",
-    "tagList": ["horas-complementares"],
-    "sourceList": [
-      {
-        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
-        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
-      },
-      {
-        "title": "Formulário de Requerimento das Atividades Complementares (arquivo editável docx)",
-        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
-      }
-    ]
   },
   {
     "id": 3,
@@ -279,5 +287,380 @@
     "answer": "O professor Tiago Falcão pode ser contatado pelo e-mail institucional: tiago.falcao@recife.ifpe.edu.br.",
     "tagList": ["contato", "professor", "Tiago Falcão"],
     "sourceList": []
+  },
+  {
+    "id": 39,
+    "question": "Quantas horas complementares são necessárias?",
+    "answer": "O curso exige 120 horas de atividades complementares.",
+    "tagList": ["horas-complementares"],
+    "sourceList": [
+      {
+        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
+        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
+      },
+      {
+        "title": "Formulário Específico de Requerimento das Atividades Complementares (arquivo editável docx)",
+        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Como registrar as atividades complementares?",
+    "answer": "Siga o seguinte procedimento:\n\n1. Verifique no plano de curso da sua matriz curricular as regras de atividades complementares.\n    OBS: Cuidado com as restrições sobre a carga horária. Por exemplo, cada monitoria conta apenas 30h e só podem ser usadas no máximo 3 monitorias, no plano de curso de 2012.\n        i. É possível utilizar cursos online para cumprir atividades complementares. Os cursos precisam ser na área e ter sido realizados durante a sua graduação.\n        ii. É possível usar iniciação científica, dado que não tenha sido utilizada ao mesmo tempo para cumprir estágio.\n2. Some todas as horas respeitando as restrições e veja se atinge 120h.\n3. Preencha um formulário de requerimento.\n    i. Coloque em Observações: \"Solicito Carga Horária Complementar\", pois não consta na lista de opções.\n4. Anexe cópia de RG e CPF.\n5. Anexe cópias de todos os documentos comprobatórios das suas atividades.\n6. Anexe o PDF e o arquivo original (docx) do Formulário Específico de Requerimento das Atividades Complementares.\n7. Envie toda a documentação para o Protocolo Geral e o Registro Superior, copiando os emails (em CC) da coordenação de TADS e do técnico Carlos Borges.\nAo recebermos, a Coordenação do curso irá abrir um processo no sistema SEI, para acompanhamento.\nOs comprovantes serão verificados pelo coordenador do curso (atualmente, o professor Paulo Abadie).\nAo término do processo, suas horas serão registradas no sistema, pelo Registro Superior. O setor poderá dar informações sobre o andamento do processo.\nÉ possível conferir o registro no histórico, na tabela onde tem \"CH Comp\". Se a linha \"Cumprida\" estiver com 120, você cumpriu este requisito de conclusão.",
+    "tagList": [
+      "atividades-complementares",
+      "requerimento",
+      "exige-analise-do-coordenador",
+      "protocolo-geral",
+      "requerimento-superior",
+      "sistema-sei"
+    ],
+    "sourceList": [
+      {
+        "title": "Regulamento de Atividades Complementares do IFPE (PDF)",
+        "url": "https://drive.google.com/file/d/1pYY1PydCmTqgEKQmokLIp1XbAPYwIdTP/view"
+      },
+      {
+        "title": "Formulário Específico de Requerimento das Atividades Complementares (arquivo editável docx)",
+        "url": "https://docs.google.com/document/d/1I_Kk1LGmG6vq4TOFfUCzm6WTdgdp9uDN/edit"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Como escolher a atividade complementar? Qual o melhor critério?",
+    "answer": "1. Identifique qual seu objetivo no mercado de trabalho e saiba onde deseja chegar profissionalmente.\n2. Escolha cursos e treinamentos que estejam alinhados com esses objetivos. (Por exemplo, se deseja trabalhar com cibersegurança, faça cursos nessa área)\n3. Não tem problema se sentir curiosidade por mais de uma área. Nesso caso, pode fazer atividades em mais de uma área.\nNão é recomendado fazer treinamentos sem que eles tenham um sentido profissional relevante para você.",
+    "tagList": ["atividades-complementares"],
+    "sourceList": []
+  },
+  {
+    "id": 42,
+    "question": "Onde encontrar bons cursos online com certificados?",
+    "answer": "Na escolha de cursos online, use o bom senso e peça indicação de colegas mais experientes.",
+    "tagList": ["atividades-complementares"],
+    "sourceList": [
+      {
+        "title": "Escola Virtual",
+        "url": "https://www.escolavirtual.gov.br/catalogo"
+      },
+      {
+        "title": "DIO - Digital Innovation One",
+        "url": "https://www.dio.me/ "
+      },
+      {
+        "title": "Mundi - IFSul",
+        "url": "https://mundi.ifsul.edu.br/ava/"
+      },
+      {
+        "title": "Sebrae",
+        "url": "https://sebrae.com.br/sites/PortalSebrae/cursosonline"
+      },
+      {
+        "title": "FGV - Fundação Getulio Vargas",
+        "url": "https://educacao-executiva.fgv.br/cursos/gratuitos"
+      },
+      {
+        "title": "Escolha do Trabalhador 4.0",
+        "url": "https://cadastro.escoladotrabalhador40.com.br/#/register"
+      },
+      {
+        "title": "MEC - Aprenda Mais",
+        "url": "https://aprendamais.mec.gov.br/course/index.php?categoryid=8"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Faço parte da grade antiga (antes de 2012.02) e preciso realizar complementação de carga horária para fechar alguma disciplina. Como faço?",
+    "answer": "A situação mais comum para complementação de carga horária atualmente é sobre trabalho de conclusão de curso. Neste caso, seu orientador de TCC normalmente é a pessoa que irá atribuir atividades para complementação da carga.\n\nEnvie um requerimento ao DGCA solicitando complementação de carga horária, explicando seu caso detalhadamente.\n\nDGCA - Departamento geral de controle acadêmico\nDados de contato:\n- E-mail: registrosuperior@recife.ifpe.edu.br\n- Telefone: 2125-1604\n- E-mail da chefia (somente para casos graves): dgca@recife.ifpe.edu.br\n\nSerá aberto um processo. O professor da disciplina precisará acompanhar o aluno e propor atividades extras, que serão registradas no processo para compor a carga horária adicional. Quando a carga horária estiver concluída e registrada, o processo poderá ser finalizado e a sua disciplina pendente será considerada equivalente.\n\nExistem dois formulários para registro das atividades complementares. Um será utilizado pelo professor e outro pelo aluno.",
+    "tagList": [
+      "complementacao-carga-horaria",
+      "disciplina",
+      "disciplina-antiga"
+    ],
+    "sourceList": [
+      {
+        "title": "Formulário para complementação de carga horária em disciplinas (Aluno/Discente)",
+        "url": "http://bit.ly/3s72kax"
+      },
+      {
+        "title": "Formulário para complementação de carga horária em disciplinas (Professor/Docente)",
+        "url": "http://bit.ly/2OVqXbk"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Como cumprir uma disciplina/matéria antiga que não é mais oferecida no curso?",
+    "answer": "Solicite por requerimento a sua matrícula na referida disciplina. Há situações onde a equivalência já existe  no próprio sistema, e é possível pagar a disciplina em outra turma de outro curso.\n\nDe qualquer forma, cada caso será analisado individualmente pela coordenação e pelo departamento.Se for necessário, uma turma extra pode ser aberta, dado que haja todas as condições que justifiquem e permitam a turma extra.",
+    "tagList": ["disciplina", "disciplina-antiga"],
+    "sourceList": []
+  },
+  {
+    "id": 45,
+    "question": "É possível cursar/pagar duas disciplinas/matérias classificadas como \"Eletiva 1\"?",
+    "answer": "A resposta muda conforme a sua matriz curricular:\n\nMatriz curricular de ADS de 2023: Não há mais a distinção \"Eletiva 1\" e uma \"Eletiva 2\". Agora você tem apenas \"Disciplina Optativa\" e pode escolher qual disciplina preferir.\n\nMatriz curricular de ADS de 2012: Não é possível. Você deve pagar exatamente uma disciplina de cada grupo. Ou seja, uma \"Eletiva 1\" e uma \"Eletiva 2\".",
+    "tagList": [
+      "disciplina",
+      "disciplina-optativa",
+      "disciplina-eletiva",
+      "resposta-muda-conforme-matriz"
+    ],
+    "sourceList": []
+  },
+  {
+    "id": 46,
+    "question": "Gostaria de pagar uma disciplina/matéria eletiva, mas ela não está sendo oferecida. O que fazer?",
+    "answer": "Converse com seus colegas e monte um grupo. Fale com a coordenação com antecedência (no início do semestre anterior) e peça a disciplina para o semestre seguinte.\n\nDisciplinas com alta demanda provavelmente terão prioridade, porém outros fatores também serão considerados, como restrições de horário e professores disponíveis.",
+    "tagList": ["disciplina", "disciplina-optativa", "disciplina-eletiva"],
+    "sourceList": []
+  },
+  {
+    "id": 47,
+    "question": "Já cursei disciplinas/matérias em outra faculdade ou curso, gostaria de aproveitar disciplinas externas para não precisar cursar novamente. É possível?",
+    "answer": "Sim, é possível. Abra um processo pedindo a dispensa com todos os documentos necessários para embasar seu pedido. Deve ser feito no período correto, então observe o calendário acadêmico.",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": []
+  },
+  {
+    "id": 48,
+    "question": "O que é observado na análise para aproveitar disciplinas/matérias externas?",
+    "answer": "1. Suas disciplinas devem ser de um curso superior.\n\n    OBS: Há um caso particular para disciplinas do técnico, dentro do IFPE: veja a OAI)\n\n2. A carga horária deve ser compatível (percentuais na OAI).\n\n3. A ementa deve ser compatível (percentuais na OAI).\n\n4. Se for possível, podemos usar mais de uma disciplina externa para dispensar uma disciplina interna do curso de TADS, de modo a compor a carga horária necessária ou a ementa. Ou seja, respeitando a regra de equivalência.",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": [
+      {
+        "title": "OAI - Organização Acadêmica Institucional (PDF)",
+        "url": "https://portal.ifpe.edu.br/wp-content/uploads/2026/01/Resolucao-320-2026-Aprova-a-atualizacao-da-Organizacao-Academica-Institucional-do-IFPE.pdf"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qual o procedimento para abrir o pedido de aproveitamento de disciplinas externas?",
+    "answer": "Envie os seguintes documentos para o Protocolo Geral (Fone: 2125-1642, E-mail: protocologeral@recife.ifpe.edu.br):\n\n1. O requerimento digital solicitando \"Aproveitamento de disciplinas externas\", indicando as disciplinas externas cursadas e as disciplinas a serem dispensadas.\n2. Cópia legível da identidade e CPF.\n3.Cópia do seu histórico escolar do curso externo, devidamente assinada de forma digital (ou assinada com caneta e carimbada).\n4. Cópia das ementas do curso com carga horária e conteúdo programático das disciplinas que serão analisadas.\n5. Quaisquer comprovantes que auxiliem na análise da equivalência, ou que demonstrem claramente evidências do conhecimento adquirido.\n\nPara a devida análise, pode ser necessária a \"Avaliação de saberes e competências\".",
+    "tagList": ["disciplina", "disciplina-externa", "aproveitamento"],
+    "sourceList": [
+      {
+        "title": "Requerimento (PDF)",
+        "url": "https://drive.google.com/file/d/1zQ7gvVcKJv2hxGJi7kz2Wkk4j__H0-1g/view"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Posso dispensar disciplinas/matérias/cadeiras que já sei ou componentes em que já possuo as competências/conhecimento?",
+    "answer": "Caso o estudante julgue que já possui o conhecimento mínimo necessário de uma disciplina, é possível ser dispensado após \"Avaliação de saberes e competências\" por uma banca especial, através de prova escrita, oral, apresentação ou qualquer outro meio que a banca julgar adequado.\n\nO estudante não precisa estar matriculado na disciplina para pedir dispensa. Mas se estiver, não tem problema, pois a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 51,
+    "question": "O que é avaliação de saberes e competências?",
+    "answer": "É a avaliação feita por uma banca especial para avaliar se um estudante tem o conhecimento necessário para dispensar disciplina/matéria.\n\nCaso o estudante julgue que já possui o conhecimento mínimo necessário de uma disciplina, ele realiza a prova escrita, oral, apresentação ou qualquer outro meio que a banca julgar adequado.\n\nO estudante não precisa estar matriculado na disciplina para pedir dispensa. Mas se estiver, não tem problema, pois a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 52,
+    "question": "Posso fazer avaliação de saberes e competências se já estou matriculado na disciplina/matéria/cadeira?",
+    "answer": "Sim, a simples matrícula não impede o pedido.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 53,
+    "question": "Posso pedir novamente a avaliação de saberes e competências se já fui reprovado na primeira vez?",
+    "answer": "Não. A avaliação ocorre uma única vez para cada disciplina.\n\nO estudante pode contestar a reprovação através de recurso.",
+    "tagList": ["disciplina", "avaliacao-de-saberes-e-competencias"],
+    "sourceList": []
+  },
+  {
+    "id": 54,
+    "question": "O que é ENADE?",
+    "answer": "O Enade (Exame Nacional de Desempenho dos Estudantes) é uma prova criada pelo governo federal para medir a qualidade dos cursos de graduação no Brasil.\n\nO ENADE ocorre a cada 3 anos para os cursos superiores. Toda edição do exame tem o seu edital.",
+    "tagList": ["enade"],
+    "sourceList": []
+  },
+  {
+    "id": 55,
+    "question": "Posso colar grau sem fazer ENADE? Posso me formar sem realizar a prova do ENADE?",
+    "answer": "Na maioria das vezes, sim. Porém depende do edital de cada avaliação, emitido anualmente.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 56,
+    "question": "Já fiz o ENADE uma vez, preciso fazer de novo?",
+    "answer": "Caso passe o tempo e o novo ciclo do ENADE chegue, você precisará refazer o exame.\n\nEntretanto, as regras são complexas e há várias possibilidades. Assim, cada caso precisa ser avaliado individualmente.\n\nNa dúvida, consulte o edital do último exame e converse com a coordenação do curso.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 57,
+    "question": "Qual o impacto do ENADE na conclusão do curso e colação de grau?",
+    "answer": "No semestre em que há ENADE, existe um período no qual não pode ocorrer colação de grau. Ou seja, a cada 6 semestres, teremos um semestre sem colação de grau.\n\nEsse período se inicia em uma data específica definida pelo edital e termina com a publicação dos resultados do exame. Geralmente os resultados saem no início do ano seguinte.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 58,
+    "question": "Por que não há conclusão do curso e colação de grau no semestre do ENADE?",
+    "answer": "Porque o exame é requisito de conclusão dos cursos superiores. Nos semestres em que não há exame, o requisito é atendido simplesmente porque o aluno estará fora do ciclo de avaliação.\n\nNo semestre onde há o exame, o aluno precisa participar para satisfazer o requisito. Caso contrário, não poderá colar grau até estar regularizado.\n\nOs detalhes dependem de cada edital específico. Toda edição do exame tem o seu edital.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 59,
+    "question": "Quem precisa fazer o ENADE?",
+    "answer": "Todos os alunos habilitados ao exame, conforme a regra definida pelo edital. Em geral, são alunos vinculados que estejam no início e no fim do curso: ingressantes e concluintes.\n\nOs detalhes específicos dependem de cada edital. Todo ano há um edital definindo as regras e detalhes do exame.\n\nIngressantes participam. Normalmente alunos entre 0 (zero) e 25% de carga horária concluída são ingressantes. Participam respondendo questionário, mas não fazem prova pois estão entrando. Ajudam a conhecer o perfil do aluno que procura o curso e entra.\n\nConcluintes participam. Normalmente alunos entre 75 e 100% de carga horária concluída, mas que não colaram grau, são concluintes. Participam respondendo questionário, e também fazem prova, pois estão concluindo. Ajudam a conhecer o perfil do aluno que sai do curso, bem como a qualidade do próprio curso pela análise de desempenho dos alunos.\n\nO cálculo se dá pelo percentual de integralização do curso: carga horária total cumprida dividida pela carga horária total prevista (Acesso a esses dados no Histórico Escolar: coluna CH Total).\n\nTambém podem ser considerados habilitados, os alunos que atendam algum outro critério específico do edital, como a previsão de integralização de 100% do curso até uma data específica.\n\nGeralmente, alunos que colarem grau até antes da data limite definida pelo edital não participam do exame.",
+    "tagList": ["enade", "conclusao"],
+    "sourceList": []
+  },
+  {
+    "id": 60,
+    "question": "Como descobrir meu percentual de integralização no curso? Como saber se preciso fazer o ENADE?",
+    "answer": "O cálculo é: carga horária total cumprida dividida pela carga horária total prevista (Acesso a esses dados no Histórico Escolar: coluna CH Total).\n\nNormalmente alunos entre 0 (zero) e 25% de carga horária concluída são ingressantes e participam respondendo questionário, mas não fazem prova.\n\nJá alunos entre 75 e 100% de carga horária concluída, mas que não colaram grau, são concluintes e participam do questionário e da prova.\n\nExemplo: o estudante com CH Total cumprida 1984,5 e CH Total prevista 2705 não participa do ENADE pois 1984,5 / 2705 = 0,7336, ou seja, 73%.",
+    "tagList": ["enade"],
+    "sourceList": []
+  },
+  {
+    "id": 61,
+    "question": "O que são requisitos de conclusão de curso?",
+    "answer": "São todos os requisitos que precisam ser cumpridos para conclusão do curso. Se faltar algum deles, o aluno não poderá colar grau.\n\nCada matriz curricular possui um conjunto específico de requisitos, definidos pelo PPC - Projeto Pedagógico do Curso, que podem mudar cada vez que o projeto é atualizado, embora haja requisitos que são obrigatórios por lei.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Quais são os requisitos de conclusão de curso?",
+    "answer": "A resposta muda conforme a sua matriz curricular:\n\nMatriz curricular de ADS de 2023:\n1. Cumprir todos os componentes curriculares (disciplinas).\n2. Cumprir a prática profissional.\n3. Cumprir as atividades complementares.\n4. Cumprir com o ENADE.\n5. Não possuir pendências com a biblioteca.\n\nMatriz curricular de ADS de 2012:\n1. Cumprir todos os componentes curriculares (disciplinas).\n2. Estágio obrigatório.\n3. Apresentar e defender o trabalho de conclusão de curso.\n4. Atividades complementares.\n5. Cumprir com o ENADE.",
+    "tagList": ["conclusao", "requisitos", "resposta-muda-conforme-matriz"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Faço parte da matriz curricular antiga (antes de 2012.02), sou obrigado a mudar para a nova?",
+    "answer": "Não. Alunos da matriz curricular antiga podem, se quiser, mudar para a matriz mais nova.\n\nJá alunos novos sempre entram no curso na matriz curricular mais nova e não podem voltar para uma matriz antiga.",
+    "tagList": ["mudanca-de-matriz"],
+    "sourceList": [
+      {
+        "title": "Matriz curricular de ADS de 2023 - Projeto Pedagógico (PDF)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:4078e015-8421-4767-ad62-8467aac98edf"
+      },
+      {
+        "title": "Matriz curricular de ADS de 2012 - Projeto Pedagógico (PDF)",
+        "url": "https://drive.google.com/file/d/118VSJKu1FW0tokD1YmBv8TOmok3kKFPp/view"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Como sei se estou apto a me formar?",
+    "answer": "O aluno está apto a se formar quando cumpriu todos os requisitos de colação de grau e está em situação regular junto ao curso.\n\nAlém disso, é necessário que o registro superior e a coordenação verifiquem todos esses requisitos e incluam o aluno na listagem de formandos, que será enviada à comissão de eventos. Esta verificação é realizada por mais de um setor,  por segurança.\n\nO aluno precisa estar apto com razoável antecedência para poder colar grau. Se o aluno perder o prazo do envio da lista de formandos, não poderá colar grau no evento correspondente e precisará esperar a colação seguinte.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": []
+  },
+  {
+    "id": 65,
+    "question": "Como posso verificar requisitos de conclusão?",
+    "answer": "A forma mais segura é pedir à CGCA ou ao seu coordenador para verificar os requisitos.\n\nNo entanto, o estudante pode ter uma prévia ao acessar o histórico escolar.A tabela que aparece ao final do histórico tem duas linhas: horas previstas e cumpridas. Se todas as horas aparecem como cumpridas, quer dizer que você tem boa parte dos requisitos.",
+    "tagList": ["conclusao", "requisitos"],
+    "sourceList": []
+  },
+  {
+    "id": 66,
+    "question": "O que é a biblioteca virtual da Pearson?",
+    "answer": "Um serviço online que permite estudar e consultar livros da Pearson pelo browser do computador, ou pelo celular/tablet. A escola possui um contrato que permite usar este serviço.",
+    "tagList": ["biblioteca-virtual"],
+    "sourceList": []
+  },
+  {
+    "id": 67,
+    "question": "Como posso acessar a biblioteca virtual?",
+    "answer": "As formas de acesso são:\n\n1. Acessando o Q-Acadêmico web. Dentro do sistema haverá um link direto para a biblioteca virtual.\n\n2. Pelo navegador, acessando o endereço da Biblioteca Virtual diretamente.\n\n3. Pelo aplicativo de celular.",
+    "tagList": ["biblioteca-virtual"],
+    "sourceList": [
+      {
+        "title": "Biblioteca virtual Pearson",
+        "url": "https://plataforma.bvirtual.com.br/"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Não tenho internet em casa ou minha internet é muito ruim. Como acessar livros da biblioteca virtual sem internet?",
+    "answer": "1. Em um local com internet, instale o aplicativo da biblioteca no seu celular ou tablet.\n2. Selecione os livros que você deseja estudar (Escolha com cuidado: há um limite de dez livros por vez que podem ser baixados).\n3. Se necessário, apague algum conteúdo antigo do seu aparelho para ter espaço de armazenamento para os livros.\n4. Baixe os livros escolhidos no aparelho. A partir de agora, poderá consumir o conteúdo sem precisar estar conectado a uma rede.\n5. Você terá um mês para estudar até 10 livros, antes de ser necessário entrar novamente na internet.\n6. Não há garantias de que estes parâmetros permanecerão. O tempo de uso e a quantidade de livros pode ser alterado sem aviso prévio.",
+    "tagList": ["biblioteca-virtual"],
+    "sourceList": [
+      {
+        "title": "Biblioteca virtual Pearson",
+        "url": "https://plataforma.bvirtual.com.br/"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Não tenho tablet para estudar. O que posso fazer?",
+    "answer": "Se não tiver tablet, entre em contato com a biblioteca Joseph Mesel, que talvez ela possa emprestar.",
+    "tagList": ["biblioteca"],
+    "sourceList": []
+  },
+  {
+    "id": 70,
+    "question": "O IFPE oferece acesso a periódicos na biblioteca?",
+    "answer": "Temos acesso aos seguintes periódicos por meio digital: Capes, E-brary, ABNT e Pearson. O acesso pode ser feito pelo serviço de Comunidade Acadêmica Federada (rede CAFe) da RNP.",
+    "tagList": ["biblioteca-virtual"],
+    "sourceList": [
+      {
+        "title": "Biblioteca virtual Pearson",
+        "url": "https://plataforma.bvirtual.com.br/"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Preciso de uma declaração de quitação \"Nada consta\" da biblioteca. Como posso obtê-lo?",
+    "answer": "O documento pode ser solicitado presencialmente na biblioteca. Ou então, por e-mail: cbib@recife.ifpe.edu.br",
+    "tagList": ["biblioteca", "nada-consta"],
+    "sourceList": []
+  },
+  {
+    "id": 72,
+    "question": "Qual o horário atual de funcionamento da biblioteca?",
+    "answer": "A biblioteca Joseph Mesel do Campus Recife funciona de segunda a sexta das 7:30 às 20:00.",
+    "tagList": ["biblioteca"],
+    "sourceList": [
+      {
+        "title": "Informações sobre as bibliotecas de todos os campi do IFPE",
+        "url": "https://portal.ifpe.edu.br/o-ifpe/biblioteca/campi/"
+      }
+    ]
   }
 ]

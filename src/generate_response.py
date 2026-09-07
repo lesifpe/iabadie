@@ -7,7 +7,7 @@ MODEL_PATH = hf_hub_download(
     filename="qwen2.5-0.5b-instruct-q4_0.gguf"
 )
 
-llm = Llama(model_path=MODEL_PATH, n_ctx=512, n_threads=2, n_batch=512, verbose=False)
+llm = Llama(model_path=MODEL_PATH, n_ctx=2048, n_threads=2, n_batch=512, verbose=False)
 
 SYSTEM_PROMPT = """Você reescreve uma resposta de perguntas frequentes (FAQ) do curso de Análise e Desenvolvimento de Sistemas (ADS), de forma natural, em português, de modo curto, direto e natural.
 
@@ -51,7 +51,12 @@ def _clean_response(text):
 
     return text.strip()
 
+LONG_ANSWER_THRESHOLD = 800
+
 def generate_natural_response(user_question, faq_answer):
+    if len(faq_answer) > LONG_ANSWER_THRESHOLD:
+        return 'Achei a resposta! Mas ela é longa e resumi-la faria você perder informações importantes. \n\nEntão clique em "Ver fonte" para ver a resposta completa.'
+
     response = llm.create_chat_completion(
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
